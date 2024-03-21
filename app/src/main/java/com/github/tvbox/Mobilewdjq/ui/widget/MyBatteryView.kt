@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.widget
+package com.github.tvbox.Mobilewdjq.ui.widget
 
 import android.content.Context
 import android.graphics.Canvas
@@ -8,7 +8,7 @@ import android.graphics.RectF
 import android.util.AttributeSet
 import android.view.View
 import androidx.core.graphics.ColorUtils
-import com.github.tvbox.osc.R
+import com.github.tvbox.Mobilewdjq.R
 
 /**
  * @Author : Liu XiaoRan

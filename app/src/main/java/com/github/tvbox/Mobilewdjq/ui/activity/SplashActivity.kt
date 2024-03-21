@@ -1,9 +1,9 @@
-package com.github.tvbox.osc.ui.activity
+package com.github.tvbox.Mobilewdjq.ui.activity
 
 import android.content.Intent
 import android.os.Handler
-import com.github.tvbox.osc.base.BaseVbActivity
-import com.github.tvbox.osc.databinding.ActivitySplashBinding
+import com.github.tvbox.Mobilewdjq.base.BaseVbActivity
+import com.github.tvbox.Mobilewdjq.databinding.ActivitySplashBinding
 
 class SplashActivity : BaseVbActivity<ActivitySplashBinding>() {
     override fun init() {

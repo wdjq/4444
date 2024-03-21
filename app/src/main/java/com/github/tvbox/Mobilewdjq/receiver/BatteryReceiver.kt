@@ -1,9 +1,9 @@
-package com.github.tvbox.osc.receiver
+package com.github.tvbox.Mobilewdjq.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.github.tvbox.osc.event.RefreshEvent
+import com.github.tvbox.Mobilewdjq.event.RefreshEvent
 import org.greenrobot.eventbus.EventBus
 
 /**
