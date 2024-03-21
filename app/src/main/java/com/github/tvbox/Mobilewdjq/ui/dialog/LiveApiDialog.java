@@ -63,7 +63,11 @@ public class LiveApiDialog extends CenterPopupView {
             }
             ToastUtils.showShort("设置成功");
             dismiss();
-        });
+        }else {
+        // 一定要传 null，不能是空串，加载配置时，判断为 null 才读默认值
+        listener.onchange(null);
+        dismiss();
+    });
     }
 
     private void updateEt(String text){
