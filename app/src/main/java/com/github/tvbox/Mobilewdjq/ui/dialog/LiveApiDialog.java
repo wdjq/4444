@@ -60,7 +60,11 @@ public class LiveApiDialog extends CenterPopupView {
                 if (liveHistory.size() > 20)
                     liveHistory.remove(20);
                 Hawk.put(HawkConfig.LIVE_HISTORY, liveHistory);
-            }
+            }else {
+        // 一定要传 null，不能是空串，加载配置时，判断为 null 才读默认值
+        listener.onchange(null);
+        dismiss();
+    }
             ToastUtils.showShort("设置成功");
             dismiss();
         });
