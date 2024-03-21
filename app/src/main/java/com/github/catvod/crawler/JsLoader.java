@@ -1,10 +1,10 @@
 package com.github.catvod.crawler;
 
 
-import com.github.tvbox.osc.base.App;
-import com.github.tvbox.osc.util.LOG;
-import com.github.tvbox.osc.util.MD5;
-import com.github.tvbox.osc.util.js.JsSpider;
+import com.github.tvbox.Mobilewdjq.base.App;
+import com.github.tvbox.Mobilewdjq.util.LOG;
+import com.github.tvbox.Mobilewdjq.util.MD5;
+import com.github.tvbox.Mobilewdjq.util.js.JsSpider;
 import com.lzy.okgo.OkGo;
 
 import java.io.File;
