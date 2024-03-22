@@ -120,7 +120,11 @@ public class SubscriptionActivity extends BaseVbActivity<ActivitySubscriptionBin
 
         mSubscriptionAdapter.setOnItemChildClickListener((adapter, view, position) -> {
             LogUtils.d("删除订阅");
-
+            if (view.getId() == R.id.iv_del) {
+                if (mSubscriptions.get(position).isChecked()) {
+                    ToastUtils.showShort("不能删除当前使用的订阅");
+                    return;
+                }
 
                 new XPopup.Builder(SubscriptionActivity.this)
                         .asConfirm("删除订阅", "确定删除订阅吗？", () -> {
@@ -128,7 +132,7 @@ public class SubscriptionActivity extends BaseVbActivity<ActivitySubscriptionBin
                             //删除/选择只刷新,不触发重新排序
                             mSubscriptionAdapter.notifyDataSetChanged();
                         }).show();
-            
+            }
         });
 
 
