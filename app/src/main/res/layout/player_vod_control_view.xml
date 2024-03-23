@@ -493,7 +493,7 @@
                         android:focusable="true"
                         android:paddingHorizontal="10dp"
                         android:paddingVertical="4dp"
-                        android:text="音444轨"
+                        android:text="音轨444"
                         />
 
                     <TextView
@@ -507,7 +507,8 @@
                         android:focusable="true"
                         android:paddingHorizontal="10dp"
                         android:paddingVertical="4dp"
-                        android:text="横竖1屏"                       
+                        android:text="横竖屏"
+                        android:visibility="gone"
                         />
 
                 </LinearLayout>
