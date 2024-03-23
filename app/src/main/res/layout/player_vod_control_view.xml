@@ -339,7 +339,7 @@
                         android:focusable="true"
                         android:paddingHorizontal="10dp"
                         android:paddingVertical="4dp"
-                        android:text="重播"
+                        android:text="重2播"
                         android:textColor="@color/white"
                         android:layout_marginLeft="20dp"
                         />
@@ -507,7 +507,7 @@
                         android:focusable="true"
                         android:paddingHorizontal="10dp"
                         android:paddingVertical="4dp"
-                        android:text="横竖屏"
+                        android:text="横2竖屏"
                         />
 
                 </LinearLayout>
