@@ -347,7 +347,7 @@
                     android:textColor="@color/text_gray"
                     android:paddingVertical="4dp"
                     android:paddingHorizontal="10dp"
-                    android:text="重播" />
+                    android:text="重播1" />
 
                 <TextView
                     android:id="@+id/refresh"
