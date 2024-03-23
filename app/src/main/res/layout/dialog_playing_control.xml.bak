@@ -304,7 +304,7 @@
                     android:textColor="@color/text_gray"
                     android:paddingVertical="4dp"
                     android:paddingHorizontal="10dp"
-                    android:text="横竖2屏"
+                    android:text="横竖屏"
                     android:visibility="gone"
                     tools:visibility="visible"
                     />
@@ -360,7 +360,7 @@
                     android:textColor="@color/text_gray"
                     android:paddingVertical="4dp"
                     android:paddingHorizontal="10dp"
-                    android:text="刷新2" />
+                    android:text="刷新" />
 
                 <TextView
                     android:id="@+id/download"
