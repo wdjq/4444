@@ -508,6 +508,7 @@
                         android:paddingHorizontal="10dp"
                         android:paddingVertical="4dp"
                         android:text="横竖屏"
+                        android:visibility="gone"
                         />
 
                 </LinearLayout>
