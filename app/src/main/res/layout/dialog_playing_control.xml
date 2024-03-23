@@ -305,8 +305,6 @@
                     android:paddingVertical="4dp"
                     android:paddingHorizontal="10dp"
                     android:text="横竖屏"
-                    android:visibility="gone"
-                    tools:visibility="visible"
                     />
 
                 <TextView
